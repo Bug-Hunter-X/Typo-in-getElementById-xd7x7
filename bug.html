@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p>This is some text.</p>
+  </div>
+  <script>
+    //Incorrect way to select the div
+    document.getElementByIdx("myDiv").innerHTML = "<b>This text is bold!</b>"; 
+  </script>
+</body>
+</html>
