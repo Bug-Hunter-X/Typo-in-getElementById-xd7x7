@@ -1,0 +1,1 @@
+This repository demonstrates a simple yet easily overlooked error in HTML: a typo in `getElementById`.  The incorrect `getElementByIdx` function will result in a runtime error, as it's not a valid DOM method. This example highlights the importance of careful attention to detail and using browser's developer tools to debug such issues.
